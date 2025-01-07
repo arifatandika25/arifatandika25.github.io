@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <!-- link -->
+    <!-- framework tailwind -->
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- menggunakan remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" />
+    <!-- aos cdn -->
+
+    <!-- link -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORT-ME</title>
+  </head>
+  <body>
+    <!-- head/ nav -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a class="font-bold text-primary font-Lobster xl:text-3xl lg:text-2xl sm:text-xl md:-xl block py-6" href="#home">arifatandika@gmail.com</a>
+          </div>
+          <div class="flex items-center justify-center px-4">
+            <button class="block absolute right-4 xl:hidden sm:visible lg:hidden" id="hamburger" name="hamburger" type="button">
+              <span class="hamburger-line transition-all ease-in-out duration-700 origin-top-left"></span>
+              <span class="hamburger-line transition-all ease-in-out duration-700"></span>
+              <span class="hamburger-line transition-all ease-in-out duration-700 origin-top-left"></span>
+            </button>
+
+            <!-- menu navbar -->
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex font-Jost font-medium">
+                <li class="group">
+                  <a href="#home" class="text-dark py-2 mx-8 text-base mx-8 flex group-hover:text-primary ease-in-out duration-300">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-dark py-2 mx-8 text-base mx-8 flex group-hover:text-primary ease-in-out duration-300">About Me</a>
+                </li>
+                <li class="group">
+                  <a href="#galeri" class="text-dark py-2 mx-8 text-base mx-8 flex group-hover:text-primary ease-in-out duration-300">Galery</a>
+                </li>
+                <li class="group">
+                  <a href="#Skills" class="text-dark py-2 mx-8 text-base mx-8 flex group-hover:text-primary ease-in-out duration-300">Skills</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- menu navbar -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- head/ nav -->
+
+    <!-- hero -->
+    <section class="pt-10" id="home">
+      <div class="container pt-20" id="#home">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2" data-aos="fade-right" data-aos-duration="800">
+            <h1 class="font-semibold text-primary md:text-2xl text-base lg:text-2xl">
+              <span class="font-Inter"> Halo guys, Saya</span> <span class="block font-bold text-dark text-4xl font-Jost lg:text-5xl"> Arif At Andika</span>
+            </h1>
+            <h3 class="text-tex mb-4 font-medium lg:text-2xl">Mahasiswa Universitas Teknologi Yogyakarta</h3>
+            <p class="text-tex mb-10 font-medium font"></p>
+            <a
+              href="https://wa.me/087749466367"
+              class="bg-primary py-2 px-4 border rounded-full text-white text-base shadow-sm hover:shadow-xl hover:bg-teal-400n ease-in-out duration-150"
+              >Contact Me</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-9 lg:right-0">
+              <img src="img/arif.png" class="max-w-full mx-auto w-75" alt="" />
+              <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 -z-10 md:scale-150"
+                ><svg viewBox="0 0 200 200" width="400" heigh="400" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#1d4ed8"
+                    d="M35.7,-51.1C44.6,-49.8,49,-37.1,51.4,-25.4C53.8,-13.7,54.3,-2.9,52.2,7.1C50.1,17.1,45.6,26.4,40.9,40.1C36.2,53.8,31.4,72.1,22.1,74.3C12.9,76.4,-0.7,62.6,-12.3,53.8C-23.9,44.9,-33.4,41.1,-43.6,34.7C-53.8,28.4,-64.7,19.6,-71.8,7C-78.8,-5.7,-82.1,-22.3,-72.2,-28.4C-62.3,-34.5,-39.4,-30,-25.1,-28.8C-10.9,-27.7,-5.5,-29.8,4,-36C13.4,-42.1,26.8,-52.3,35.7,-51.1Z"
+                    transform="translate(100 100)"
+                  /></svg
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero -->
+
+    <!-- about -->
+    <section class="pt-16 pt-36 pb-32" id="about">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:mb-14 lg:w-1/2 shadow-xl border-gray-900 mb-3 transition-all duration-700 sm:hover:none py-2 xl:hover:-translate-y-10 rounded-xl">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+            <h2 class="font-bold text-dark text-3xl lg:text-4xl mb-3 font-poppins">Let's go, kenalan dengan Saya</h2>
+            <p class="font-medium lg:text-lg text-base text-tex font-nunto">
+              Saya berasal dari Provinsi Lampung lebih tepatnya di Kabupaten Pringsewu. Saat ini, Saya adalah Mahasiswa Universitas Teknologi Yogyakarta angkatan 2024, di
+              Universitas ini Saya mengambil program studi S1 Informatika.
+            </p>
+            <div class="items-center">
+              <!-- ig -->
+              <a href="https://www.instagram.com/stories/arif.at.ka_/" target="_blank" class="m-1 h-9 mr-3 justify-center items-center border-sec"
+                ><svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    fill="#020617"
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  /></svg
+              ></a>
+              <!-- ig end -->
+            </div>
+          </div>
+          <div
+            class="w-full px-4 lg:w-1/2 shadow-xl border-gray-900 transition-all will-change-transform duration-700 xl:hover:-translate-y-10 py-3 rounded-xl sm:hover:none"
+          >
+            <h3 class="font-bold text-dark text-3xl mb-3 lg:text-4xl font-poppins lg:mt-10">My Hobiesss</h3>
+            <p class="text-tex font-medium mb-0 lg:text-lg font-nunto">
+              Saya Memilki Hobi yaitu Fotografi, Saya sangat suka mendokumentasikan suatu hal atau moment. Saat SMA saya sempat mengikuti perlombaan Fotografi, mulai dari
+              Sport Fotografi (tidak menang) dan Filosofi Fotografi. Pada Galeri, Saya tampilkan beberapa Dokumentasi saat perlombaan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+
+    <!-- galeri saya -->
+    <section class="pt-36 pb-16 bg-slate-100" id="galeri">
+      <div class="container">
+        <div class="w-full px-4 pb-10">
+          <div class="text-center max-w-xl mx-auto">
+            <h4 class="text-2xl text-primary mb-2 font-semibold">Galeri</h4>
+            <h2 class="text-3xl font-bold text-dark mb-4 font-Inter">My Project</h2>
+            <p class="text-tex text-md font-medium font-nunto">
+              Ini adalah Galery, Berisi tentang hasil dari potret Saya dan Foto Saya Sendiri ketika mengikuti perlombaan
+              <span class="italic">Pringsewu Basketball Leanguages 2023</span>.
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-right" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/fotocewe.jpeg" alt="doc.1 cewe" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">PBL 2023</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 font-nunto">Hasil foto ketika pemain cewe dari sekolah saya saat bermain</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-left" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/dance.jpeg" alt="dancers" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">DANCERS</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 font-nunto">Ini adalah hasil foto ketika pemain cewe dari sekolah saya saat bermain</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-right" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/lay-shotttt.JPG" alt="SUPPORTER" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">SHOOT</h3>
+            <p class="text-base px-2 text-tex font-medium pb-6 font-nunto">Dokumentasi Ketika Team sekolah Saya bermain</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-left" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/supporter.jpeg" alt="doc.1 cewe" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">SUPPORTER</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 py-4 font-nunto">Supporter saat perlombaan</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-right" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/foto1.jpg" alt="doc.1 cewe" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">FOTORGAFER</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 py-4 font-nunto">Teman-Teman Sport Fotografer</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2">
+            <div class="" data-aos="fade-left" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/foto2.jpg" alt="doc.1 cewe" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">FOTORGAFER & JURI</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 py-4 font-nunto">Supporter saat perlombaan</p>
+          </div>
+          <div class="mb-14 p-4 md:w-1/2 xl:w-96">
+            <div class="" data-aos="fade-down" data-aos-duration="1000">
+              <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
+                <img src="img/WhatsApp Image 2025-01-07 at 09.11.33.jpeg" alt="doc.1 cewe" width="w-full" />
+              </div>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">BOY SHOOT</h3>
+            <p class="text-base px-2 text-tex font-medium pb-4 font-nunto">
+              Foto ini adalah foto yang saya gunakan atau saya taruhkan ketika mengikuti perlombaan PBL 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- galeri saya end -->
+
+    <!-- progres -->
+    <section class="pt-36 pb-16" id="Skills">
+      <div class="container">
+        <div class="w-full px-4 pb-10">
+          <div class="text-center max-w-xl mx-auto">
+            <h4 class="text-2xl text-primary mb-2 font-semibold">Skills Progress</h4>
+            <p class="text-tex text-md font-medium font-nunto">Berisi Tentang Progress Keahlian Saya Saat ini.</p>
+          </div>
+        </div>
+        <div class="w-full justify-center">
+          <div class="mb-10 items-center">
+            <h1 class="text-lg font-bold mb-4">Fotografi Skills</h1>
+            <!-- Progress bar container -->
+            <div class="bg-gray-9 rounded-full h-3 overflow-hidden bg-gray-200">
+              <!-- Progress bar -->
+              <div class="bg-primary h-3 rounded-full" style="width: 40%"></div>
+            </div>
+            <p class="text-gray-700 text-sm mt-2">40%</p>
+          </div>
+          <div class="mb-10 items-center">
+            <h1 class="text-lg font-bold mb-4">Fotografi Skills</h1>
+            <!-- Progress bar container -->
+            <div class="bg-gray-9 rounded-full h-3 overflow-hidden bg-gray-200">
+              <!-- Progress bar -->
+              <div class="bg-primary h-3 rounded-full" style="width: 40%"></div>
+            </div>
+            <p class="text-gray-700 text-sm mt-2">40%</p>
+          </div>
+          <div class="mb-10 items-center">
+            <h1 class="text-lg font-bold mb-4">Fotografi Skills</h1>
+            <!-- Progress bar container -->
+            <div class="bg-gray-9 rounded-full h-3 overflow-hidden bg-gray-200">
+              <!-- Progress bar -->
+              <div class="bg-primary h-3 rounded-full" style="width: 40%"></div>
+            </div>
+            <p class="text-gray-700 text-sm mt-2">40%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- progres end -->
+
+    <!-- bawah -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300">
+            <h3 class="font-bold text-2xl mb-2">Hubungi saya</h3>
+            <a href="" class="flex"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="currentColor">
+                <path
+                  d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z"
+                ></path>
+              </svg>
+              <p class="text-slate-300">arifatandika1234567@gmail.com</p></a
+            >
+            <p class="text-slate-300">Jl. Ringroad Barat Desa Bedog</p>
+            <p class="text-slate-300">D.I Yogyakarta</p>
+          </div>
+          <div class="w-full px-4 md:h-1/3">
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bawah -->
+    <script src="dist/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
