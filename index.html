@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
     <!-- menggunakan remix icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" />
+
     <!-- aos cdn -->
 
     <!-- link -->
@@ -137,11 +139,62 @@
             <h4 class="text-2xl text-primary mb-2 font-semibold">Galeri</h4>
             <h2 class="text-3xl font-bold text-dark mb-4 font-Inter">Proyek Saya</h2>
             <p class="text-tex text-md font-medium font-nunto">
-              Ini adalah Galery, Berisi tentang hasil dari potret Saya dan Foto Saya Sendiri ketika mengikuti perlombaan
-              <span class="italic">Pringsewu Basketball Leanguages 2023</span>.
+              Ini adalah Galery, Berisi tentang hasil dari proyek Saya dan Foto Saya Sendiri di perlombaan
+              <span class="italic">Pringsewu Basketball Leanguages 2023</span> maupun Dokumentasi lainnya.
             </p>
           </div>
         </div>
+
+        <!-- carousel  -->
+        <div id="gallery" class="relative w-full" data-carousel="slide">
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/fotocewe.jpeg" width="w-75" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+              <img src="img/drible.jpeg" width="w-75" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/foto2.jpg" width="w-75" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+            </div>
+
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/supporter.jpeg" width="w-75" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img src="img/foto1.jpg" width="w-75" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="" />
+            </div>
+          </div>
+          <!-- Slider controls -->
+          <button
+            type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            >
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            >
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+        <!-- carousel end -->
+
         <div class="w-full px-4 flex flex-wrap justify-center">
           <div class="mb-14 p-4 md:w-1/2">
             <div class="" data-aos="fade-right" data-aos-duration="700">
@@ -152,6 +205,7 @@
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">PBL 2023</h3>
             <p class="text-base px-2 text-tex font-medium pb-4 font-nunto">Hasil foto ketika pemain cewe dari sekolah saya saat bermain</p>
           </div>
+
           <div class="mb-14 p-4 md:w-1/2">
             <div class="" data-aos="fade-left" data-aos-duration="700">
               <div class="rounded-md shadow-md overflow-hidden hover:scale-105 transition-all duration-500">
@@ -195,7 +249,6 @@
               </div>
             </div>
             <h3 class="font-semibold text-xl text-dark mt-5 mb-3 px-2">FOTOGRAFER & JURI</h3>
-            <p class="text-base px-2 text-tex font-medium pb-4 py-4 font-nunto">Supporter saat perlombaan</p>
           </div>
           <div class="mb-14 p-4 md:w-1/2 xl:w-96">
             <div class="" data-aos="zoom-in-up" data-aos-duration="500">
@@ -226,7 +279,7 @@
           <div class="mb-10 items-center">
             <h1 class="text-lg font-bold mb-4">Fotografi Skill</h1>
             <div class="bg-gray-9 rounded-full h-3 overflow-hidden bg-gray-200">
-              <div class="bg-primary h-3 rounded-full" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" style="width: 40%"></div>
+              <div class="bg-primary h-3 rounded-full" data-aos="fade-right" data-aos-duration="1`000" data-aos-delay="400" style="width: 40%"></div>
             </div>
             <p class="text-gray-700 text-sm mt-2">40%</p>
           </div>
@@ -291,5 +344,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
   </body>
 </html>
